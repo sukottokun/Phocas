@@ -58,7 +58,7 @@ defaults: &defaults
     # BUILD_TOOLS_VERSION: ^2.0.0-alpha4
     TERM: dumb
 
-version: 2
+version: 2.1
 jobs:
   configure_env_vars:
     <<: *defaults
@@ -261,7 +261,7 @@ jobs:
           command: set -e && terminus project:clu $TERMINUS_SITE
 
 workflows:
-  version: 2
+  version: 2.1
   build_deploy_and_test:
     jobs:
       - configure_env_vars
