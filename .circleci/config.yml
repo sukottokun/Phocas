@@ -1,4 +1,5 @@
 # Orbs == integrations
+version: 2.1
 orbs:
   slack: circleci/slack@2.0.0
 
